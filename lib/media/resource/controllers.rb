@@ -1,0 +1,6 @@
+require_relative "controllers/categories"
+require_relative "controllers/collections"
+require_relative "controllers/items"
+require_relative "controllers/languages"
+require_relative "controllers/licenses"
+require_relative "controllers/resources"

@@ -1,0 +1,27 @@
+json = {
+  id: item.id,
+  url: url(item.id),
+  name: item.name,
+  description: item.description,
+  file: {
+    id: item.file_id
+  },
+  category: {
+    id: item.category.id,
+    url: url(item.category.id),
+    code: item.category.code,
+    name: item.category.name
+  },
+  language: {
+    id: item.language.id,
+    url: url(item.language.id),
+    code: item.language.code,
+    name: item.language.name
+  },
+  license: {
+    id: item.license.id,
+    url: url(item.license.id),
+    code: item.license.code,
+    name: item.license.name
+  }
+}
