@@ -5,7 +5,7 @@ module Media
     module Controllers
       class Collections < Base
 
-        set(:authorizer) { Authorizers::Collection }
+        set(:authorizer) { Policies::Collection }
         set(:model)      { Models::Collection }
 
         crud

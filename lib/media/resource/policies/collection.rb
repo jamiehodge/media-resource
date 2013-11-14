@@ -1,9 +1,9 @@
-require "media/web"
+require_relative "base"
 
 module Media
   module Resource
-    module Authorizers
-      class Collection < Web::Authorizers::Open
+    module Policies
+      class Collection < Base
 
         def fields
           %w(name description)

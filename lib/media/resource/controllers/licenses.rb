@@ -5,7 +5,7 @@ module Media
     module Controllers
       class Licenses < Base
 
-        set(:authorizer) { Web::Authorizers::Static }
+        set(:authorizer) { Web::Policies::Static }
         set(:model)      { Models::License }
 
         index

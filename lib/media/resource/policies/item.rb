@@ -1,9 +1,9 @@
-require "media/web"
+require_relative "base"
 
 module Media
   module Resource
-    module Authorizers
-      class Item < Web::Authorizers::Open
+    module Policies
+      class Item < Base
 
         def fields
           %w(collection_id position resource_id)
