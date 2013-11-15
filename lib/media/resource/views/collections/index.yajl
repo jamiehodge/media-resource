@@ -1,0 +1,8 @@
+json = collection.map {|item|
+  {
+    id: item.id,
+    url: url(item.id),
+    name: item.name,
+    description: item.description
+  }
+}

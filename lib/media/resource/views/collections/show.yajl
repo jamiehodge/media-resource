@@ -1,0 +1,13 @@
+json = {
+  id: item.id,
+  url: url(item.id),
+  name: item.name,
+  description: item.description,
+  items: item.items.map {|item|
+    {
+      id: item.id,
+      url: url(item.id),
+      resource_id: item.resource_id
+    }
+  }
+}
