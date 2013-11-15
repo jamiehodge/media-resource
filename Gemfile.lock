@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/itmedia/media-persistence.git
-  revision: a048100a3a6217065480d9347e9d7f0f5bf398b0
+  revision: 785599d376dc95669efda415bec989ce8602ee14
   specs:
     media-persistence (0.0.1)
       sequel
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/itmedia/media-web.git
-  revision: eb615352c428e9e4b3cf1a9b60a522f80fac7629
+  revision: c75074bd431a304fb5c38ce7e95a4a417413bc64
   specs:
     media-web (0.0.1)
       puma
