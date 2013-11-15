@@ -5,8 +5,8 @@ module Media
     module Controllers
       class Items < Base
 
-        set(:authorizer) { Policies::Item }
-        set(:model)      { Models::Item }
+        set(:model)  { Models::Item }
+        set(:policy) { Policies::Item }
 
         crud
       end

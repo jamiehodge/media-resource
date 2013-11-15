@@ -5,8 +5,8 @@ module Media
     module Controllers
       class Resources < Base
 
-        set(:authorizer) { Policies::Resource }
-        set(:model)      { Models::Resource }
+        set(:model)  { Models::Resource }
+        set(:policy) { Policies::Resource }
 
         crud
       end

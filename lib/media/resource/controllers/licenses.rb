@@ -5,8 +5,8 @@ module Media
     module Controllers
       class Licenses < Base
 
-        set(:authorizer) { Web::Policies::Static }
-        set(:model)      { Models::License }
+        set(:model)  { Models::License }
+        set(:policy) { Web::Policies::Static }
 
         index
         show

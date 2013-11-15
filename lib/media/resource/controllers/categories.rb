@@ -5,8 +5,8 @@ module Media
     module Controllers
       class Categories < Base
 
-        set(:authorizer) { Web::Policies::Static }
-        set(:model)      { Models::Category }
+        set(:model)  { Models::Category }
+        set(:policy) { Web::Policies::Static }
 
         index
         show

@@ -5,8 +5,8 @@ module Media
     module Controllers
       class Collections < Base
 
-        set(:authorizer) { Policies::Collection }
-        set(:model)      { Models::Collection }
+        set(:model)  { Models::Collection }
+        set(:policy) { Policies::Collection }
 
         crud
       end
