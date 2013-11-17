@@ -1,9 +1,9 @@
-require "media/persistence"
+require_relative "base"
 
 module Media
   module Resource
     module Models
-      class Item < Persistence::Models::Base
+      class Item < Base
         plugin :list, scope: :collection_id
 
         many_to_one :collection

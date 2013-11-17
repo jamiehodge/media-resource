@@ -1,9 +1,9 @@
-require "media/persistence"
+require_relative "base"
 
 module Media
   module Resource
     module Models
-      class Resource < Persistence::Models::Base
+      class Resource < Base
 
         many_to_one :category
         many_to_one :language
